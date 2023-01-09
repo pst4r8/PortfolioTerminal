@@ -4,11 +4,9 @@
 
 This is a SPA in reactJS with a MacOS terminal style. The terminal is a draggable and resizable React component and has sections about me, so it's will be my personal portfolio for while.
 
-See the [demo](https://raulpy271.github.io) page.
+See the [demo](https://pst4r8.eu.org) page.
 
 If you are interested in using this app for your portfolio, see the sections: [How to setup](#how-to-setup) and [Deploy](#deploy).
-
-#### To turn the terminal draggable i used this [library](https://github.com/raulpy271/DraggableDialog)
 
 ## How to setup
 
@@ -44,14 +42,14 @@ And the application will be deployed in the `homepage` link.
 
 ## Deploy in another repository
 
-Following the steps above, I get a repository with the source code in the branch `main` and another branch with the bundled version of the source. Besides, I get the link `https://raulpy271.github.io/portfolioInTerminal` to access the page.
+Following the steps above, I get a repository with the source code in the branch `main` and another branch with the bundled version of the source. Besides, I get the link `https://pst4r8.github.io/PortfolioTerminal` to access the page.
 
-The problem is that this link is too large, I want to use `https://raulpy271.github.io`. To use it, the user should create a repository named `{username}.github.io`.
+The problem is that this link is too large, I want to use `https://pst4r8.github.io`. To use it, the user should create a repository named `{username}.github.io`.
 
 But to deploy it, I should explicitly tell to github pages the new repository link. To make this I will add a remote branch in git and use this branch in the command `gh-pages`, See the steps:
 
 ```sh
-git remote add homepage https://github.com/raulpy271/raulpy271.github.io
+git remote add homepage https://github.com/pst4r8/pst4r8.github.io
 ```
 
 I added a new remote called `homepage`, and then will create a new bundled source in the directory `build`:
